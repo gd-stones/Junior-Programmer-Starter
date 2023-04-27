@@ -29,7 +29,7 @@ public abstract class Unit : MonoBehaviour, UIMainScene.IUIInfoContent
             SetColor(MainManager.Instance.TeamColor);
         }
     }
-
+     
     void SetColor(Color c)
     {
         var colorHandler = GetComponentInChildren<ColorHandler>();
